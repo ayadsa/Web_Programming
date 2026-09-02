@@ -24,7 +24,7 @@
 
 Functionality
 
-#### Поиск по сайту
+#### Search
 
 To search the site, enter the name of the product in the "Search the site" field located in the header of the page, and select its category from the available options (Playstation / Nintendo Switch / Xbox). Then click on the search button (Magnifying glass). If such a product exists, it will be displayed on the screen; otherwise, the user will receive a message "Nothing found".
 
