@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="shortcut icon" href="/img/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/basket.css" />
+    <link rel="stylesheet" type="text/css" href="css/feedback_form.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/info_about_company.css" />
+    <link rel="stylesheet" type="text/css" href="css/modal_window_with_description.css" />
+    <link rel="stylesheet" type="text/css" href="css/modal_windows.css" />
+    <link rel="stylesheet" type="text/css" href="css/responses.css" />
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabs_with_products.css" />
+    <link rel="stylesheet" type="text/css" href="css/general_style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700;1,900&display=swap">
+    <meta charset="utf-8" />
+    <link rel="icon" href="data:;base64,=">
+    <title>Console Store</title>
+</head>
+
+<body>
+<!-- Head -->
+<header сlass="header">
+    <div class="header_container">
+        <a href="/" class="header_logo2"><div class="header_logo">Console Store</div></a>
+        <div id="user-info"></div>
+    <div id="cart-info"></div>
+    <script>
+        // Fetch user info
+        fetch('/user')
+            .then(response => response.json())
+            .then(data => {
+                if (data.username) {
+                    document.getElementById('user-info').innerHTML = `Logged in as: ${data.username}`;
+                }
+            })
+            .catch(err => console.error('Error fetching user info:', err));
+
+        // Fetch cart info
+        fetch('/cart')
+            .then(response => response.json())
+            .then(data => {
+                if (data.length > 0) {
+                    let cartHTML = '<h2>Your Cart</h2><ul>';
+                    data.forEach(item => {
+                        cartHTML += `<li>Product ID: ${item.product_id}, Quantity: ${item.quantity}</li>`;
+                    });
+                    cartHTML += '</ul>';
+                    document.getElementById('cart-info').innerHTML = cartHTML;
+                } else {
+                    document.getElementById('cart-info').innerHTML = '<p>Your cart is empty.</p>';
+                }
+            })
+            .catch(err => console.error('Error fetching cart info:', err));
+    </script>
+        <nav>
+            <ul>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <form class="header_search" id="header_search">
+            <div class="header_search_input_wrapper">
+                <input class="header_search_input" id="header_search_input" type="text" required placeholder="Site Search"/>
+            </div>
+            <div class="header_search_dropdown">
+                <div data_select class="header_select">
+                    <div data_select_title class="header_select_title">Category</div>
+                    <div class="header_select_dropdown hidden">
+                        <div data_select_item="Playstation" class="header_select_dropdown_item">Playstation</div>
+                        <div data_select_item="Nintendo Switch" class="header_select_dropdown_item">Nintendo Switch</div>
+                        <div data_select_item="Xbox" class="header_select_dropdown_item">Xbox</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_search_button_wrapper">
+                <button class="header_search_button" type="submit" id="header_search_button">
+                    <img src="img/icons/search-icon.png" alt="">
+                </button>
+            </div>
+        </form>
+        <div class="header_telephone">+90(531)975-57-10</div>
+    </div>
+</header>
+<!-- Body -->
+<main id="main">
+    <div class="main__nav">
+        <div class="main_nav" id="main_nav">
+            <input type="radio" name="tabs" id="tab-nav-1" checked onclick="sectionLengthChange(1)">
+            <label for="tab-nav-1">
+                <div class="tab-nav-1-container">Playstation</div>
+            </label>
+            <input type="radio" name="tabs" id="tab-nav-2" onclick="sectionLengthChange(2)">
+            <label for="tab-nav-2">
+                <div class="tab-nav-2-container">Nintendo Switch</div>
+            </label>
+            <input type="radio" name="tabs" id="tab-nav-3" onclick="sectionLengthChange(3)">
+            <label for="tab-nav-3">
+                <div class="tab-nav-3-container">Xbox</div>
+            </label>
+            <input type="radio" name="tabs" id="tab-nav-4" onclick="sectionLengthChange(4)">
+
+            <label for="tab-nav-4">
+                <div class="tab-nav-4-container">
+                    <div class="basket-tab">Wish List </div>
+                    <img src="img/icons/basket-icon.png">
+                    <div id="basketPurchases" class="basket-tab"></div>
+                </div>
+            </label>
+            <input type="radio" name="tabs" id="tab-nav-5">
+            <div class="tabs">
+                <div id="tab-1">
+                </div>
+                <div id="tab-2">
+                </div>
+                <div id="tab-3">
+                </div>
+                <div id="tab-4">
+                    <div class="basket">
+                        <form id="feedback_form" class="feedback_form">
+                            <span class="form-caption">Phone Number<span class="red">*</span></span>
+                            <p>
+                                <input type="text" name="telephone" required class="feedback_input" id="telephone">
+                            </p>
+                            <span class="form-caption">Adress<span class="red">*</span></span>
+                            <p>
+                                <input type="text" name="address" required class="feedback_input" id="address">
+                            </p>
+                            <span class="form-caption">Delivery</span>
+                            <div class="delivery" name="delivery">
+                                <p>
+                                    <input id="del-1" name="del" value="del-1" type="radio" checked class="radio-button">
+                                    Istanbul
+                                    </input>
+                                </p>
+                                <p>
+                                    <input id="del-2" name="del" value="del-2" type="radio" class="radio-button">
+                                    Take Away
+                                    </input>
+                                </p>
+                                <p>
+                                    <input id="del-3" name="del" value="del-3" type="radio" class="radio-button">
+                                    Delivery ЕМС
+                                    </input>
+                                </p>
+                                <p>
+                                    <input id="del-4" class="radio-button" name="del" value="del-4" type="radio">
+                                    Delivery with PTT
+                                    </input>
+                                </p>
+                                <p>
+                                    <input id="del-5" name="del" value="del-5" type="radio">
+                                    Delivery by courier (Istanbul only)
+                                    </input>
+                                </p>
+                            </div>
+                            <p>
+                                <textarea type="comment" name="comment" placeholder="Cooments" class="comment" id="comment"></textarea>
+                            </p>
+                            <span class="form-caption">Buyer</span>
+                            <p>
+                                <input type="text" name="contact_person" required placeholder="cPerson" class="feedback_input" id="contact_person">
+                            </p>
+                            <p>
+                                <input type="text" name="email" placeholder="E-mail" class="feedback_input" id="email">
+                            </p>
+                            <span class="form-caption">Payment<span class="red">*</span></span>
+                            <div class="delivery" name="payment">
+                                <p>
+                                    <input name="pay" value="pay-1" type="radio" checked>
+                                    Cash on delivery
+                                </p>
+                            </div>
+                            <p>
+                                <button type="submit" class="button-submit" action="/order-confirmed" method="post">Confirm order.</button>
+                            </p>
+                        </form>
+                        <div class="basket_contents">
+                            <span class="form-caption list_of_products center">Wish List</span>
+                            <div class="empty_cart" id="empty_cart">Your wishlist is empty!</div>
+                            <table class="table_view" id="table_view">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Price, usd</th>
+                                    <th>Pieces, usd</th>
+                                    <th>Cost, usd</th>
+                                    <th> </th>
+                                </tr>
+                            </table>
+                            <div class="total" id="total">Assume:
+                                <span class="total_num" id="total_num"></span>
+                            </div>
+                            <button class="button_clean_cart button-submit" id="clean_cart">Clear basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-5">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- -->
+<div class="modal_overlay" data-close=""></div>
+<div id="modal_notice" class="dlg_modal">
+    <span id="modal_notice_text" class="modal_text"></span>
+    <button class="button_modal_cancel" data-close="">Close</button>
+</div>
+<div id="modal_confirmation" class="dlg_modal">
+    <span class="modal_text">Do you want clear your wishlist?</span>
+    <button class="button_modal_cancel button_modal_yes">Yes</button>
+    <button class="button_modal_cancel button_modal_no">No</button>
+</div>
+<div id="myModal" class="modal">
+    <div class="modalContent" id="modalContent">
+        <span class="close">&times;</span>
+        <div class="imgProduct" id="imgProduct"></div>
+    </div>
+</div>
+<!--  Company Information  -->
+<div class="info_about_company center">
+    <div class="info_title">
+        About us
+    </div>
+    <div class="container">
+        <div class="row container_mini">
+            <div class="info_container_img info_container_img_left">
+                <div class="info_img">
+                    <img src="img/icons/cash-icon.png" alt="cash" />
+                </div>
+                <div class="info_img_text">
+                    Price and quality guarantee
+                </div>
+            </div>
+            <div class="info_container">
+                The Console Store online shop is the largest specialized gaming store, offering gaming consoles with a warranty at low prices in stock.
+            </div>
+        </div>
+        <div class="row container_mini">
+            <div class="info_container">
+                In the sections of our online store, you will find the widest range of products from such brands as PlayStation, Nintendo Switch, and Xbox.
+            </div>
+            <div class="info_container_img">
+                <div class="info_img">
+                    <img src="img/icons/joystick-icon.png" alt="joystick" />
+                </div>
+                <div class="info_img_text">
+                    wide assortment
+                </div>
+            </div>
+        </div>
+        <div class="row container_mini">
+            <div class="info_container_img info_container_img_left">
+                <div class="info_img">
+                    <img src="img/icons/garanty-icon.png" alt="garanty" />
+                </div>
+                <div class="info_img_text">
+                    accuracy and reliability
+                </div>
+            </div>
+            <div class="info_container">
+                We monitor the accuracy of the information published on the website, so we can guarantee that the products you purchase meet the stated specifications.
+            </div>
+        </div>
+        <div class="row container_mini">
+            <div class="info_container">
+                "Console Store" online shop offers after-sales service and a loyalty program for future purchases.
+            </div>
+            <div class="info_container_img">
+                <div class="info_img">
+                    <img src="img/icons/support-icon.png" alt="support" />
+                </div>
+                <div class="info_img_text">
+                    Service and maintenance.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  Reviews  -->
+<div class="responses center">
+    <div class="responses_title">
+        Reviews
+    </div>
+    <div class="responses_title_bottom"></div>
+    <div class="wrapper center">
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">
+        <input type="radio" name="point" id="slide5">
+        <div class="slider center">
+            <div class="slides slide1">
+                <div class="response_container">
+                    <div class="response_item_name">
+                        Jimmy
+                    </div>
+                    <div class="response_item_text">
+                        "I'm very satisfied with the purchase. The seller is responsive. He fully answered all my questions, showed and explained how to work with the console firmware. The Nintendo Switch itself exceeded all my expectations. Thank you very much!"
+                    </div>
+                </div>
+            </div>
+            <div class="slides slide2">
+                <div class="response_container">
+                    <div class="response_item_name">
+                        Daniel
+                    </div>
+                    <div class="response_item_text">
+                        "Friendly seller. Immediately installed the games I requested on the spot, explained and showed how to use them. The console itself is in good condition. There are various colors of Joy-Cons to choose from, and there is still a sufficient quantity of consoles in stock."
+                    </div>
+                </div>
+            </div>
+            <div class="slides slide3">
+                <div class="response_container">
+                    <div class="response_item_name">
+                        Ben
+                    </div>
+                    <div class="response_item_text">
+                        "Everything is clear, I bought a 160GB set for 500$. The seller explained everything in detail, clarified about the firmware features, what can be done, what cannot, and how it should be done. The console is in perfect condition, no scratches or scuffs, no lagging, Joy-Cons work smoothly. Promised support after the purchase - can contact for any questions. Satisfied 10/10."
+                    </div>
+                </div>
+            </div>
+            <div class="slides slide4">
+                <div class="response_container">
+                    <div class="response_item_name">
+                        Sarah
+                    </div>
+                    <div class="response_item_text">
+                        "The seller is excellent: responds quickly, explains everything in detail, and is very friendly. We bought a 128GB console, everything works + the seller provides additional support if any questions arise. Everything was great, highly recommend!"
+                    </div>
+                </div>
+            </div>
+            <div class="slides slide5">
+                <div class="response_container">
+                    <div class="response_item_name">
+                        Mans
+                    </div>
+                    <div class="response_item_text">
+                        "I placed an order from California. Everything was sent promptly the next day. The Russian Post was a bit disappointing, but that's their issue. The console works fine. If I need consultation on its operation, the seller provides immediate information via WhatsApp and voice calls. I'm satisfied with the purchase. If only all sellers were like this. Thank you."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+        </div>
+    </div>
+</div>
+<!--  front  -->
+<footer class="center">
+    <div class="row container">
+        <div class="column">
+            <div class="company_name">
+                Console Store
+            </div>
+            <div class="company_name_text">
+                "Game consoles, games, accessories."
+            </div>
+        </div>
+        <div class="column">
+            <div class="contacts">
+                Contacts:
+            </div>
+            <div class="row">
+                <div class="contacts_img">
+                    <img src="img/icons/mail-icon.png" alt="mail" />
+                </div>
+                <div class="contacts_img contacts_text">
+                    post@gmail.com
+                </div>
+            </div>
+            <div class="row">
+                <div class="contacts_img">
+                    <img src="img/icons/phone-icon.png" alt="phone" />
+                </div>
+                <div class="contacts_img contacts_text">
+                    +90 (531) 975-57-10
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <div class="contacts_img icon_product">
+                    <img src="img/icons/nintendo-icon.png" alt="nintendo" />
+                </div>
+                <div class="contacts_img icon_product">
+                    <img src="img/icons/playstation-icon.png" alt="playstation" />
+                </div>
+                <div class="contacts_img icon_product">
+                    <img src="img/icons/xbox-icon.png" alt="xbox" />
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="js/firebase_submit_form.js"></script>
+<script src="js/header_search_dropdown.js"></script>
+<script src="js/show_information_of_product.js"></script>
+<script src="js/main.js"></script>
+<script src="server/server.js"></script>
+</body>
+
+</html>

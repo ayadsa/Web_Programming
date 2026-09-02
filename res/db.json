@@ -1,0 +1,390 @@
+[
+	{
+		"101": {
+			"section": "Playstation",
+			"id": 101,
+			"category": "Consoles",
+			"name_of_product": "PS 4",
+			"price": 285,
+			"state": "In stock.",
+			"count_of_product": 500,
+			"url": "img/photo-products/Playstation/Console/ps4.jpg",
+			"description": "PlayStation 4 It has a powerful 8-core processor, enabling it to play videos in 4K resolution. The graphics in games are highly realistic with smooth frame transitions."
+		},
+		"102": {
+			"id": 102,
+			"section": "Playstation",
+			"category": "Consoles",
+			"name_of_product": "PS 4 Slim",
+			"price": 330,
+			"state": "In stock.",
+			"count_of_product": 101,
+			"url": "img/photo-products/Playstation/Console/ps4_slim.jpg",
+			"description": "- Portable<br>- Hard Disk 500 Gb<br>- virtual reality support<br>- HD resolution and 3D mode support<br>- wireless controller included<br>- Bluetooth, Wi-Fi (802.11ac), LAN<br>- video capturing <br>- Ports: HDMI, USB x2"
+		},
+		"103": {
+			"id": 103,
+			"section": "Playstation",
+			"category": "Consoles",
+			"name_of_product": "PS 4 PRO",
+			"price": 375,
+			"state": "Expected arrival.",
+			"count_of_product": 0,
+			"url": "img/photo-products/Playstation/Console/ps4_pro.jpg",
+			"description": "The PlayStation 4 Pro gaming console supports 4K resolution, allowing you to enjoy stunning visuals: the picture appears exceptionally bright, high-contrast, realistic, and detailed, enhancing the sense of immersion in the game. The console supports HDR technology, which dynamically enhances color depth. The 'heart' of the PlayStation 4 Pro is an eight-core AMD processor. Working in tandem with 8 GB of RAM, it ensures system performance and prevents lags and disruptions during gameplay. The device is equipped with built-in storage, with a capacity of 1 TB for storing information. For connecting external devices, the console features USB and S/PDIF ports."
+		},
+		"104": {
+			"id": 104,
+			"section": "Playstation",
+			"category": "Consoles",
+			"name_of_product": "PS Vita",
+			"price": 247,
+			"state": "In stock.",
+			"count_of_product": 500,
+			"url": "img/photo-products/Playstation/Console/ps_vita.jpg",
+			"description": "<br>- Portable<br>- Display 5\", 960x544 pix.<br>- Bluetooth, Wi-Fi (802.11b/g/n)<br>- Storage: PS Vita Card<br>- Ports: USB, Jack"
+		},
+		"105": {
+			"id": 105,
+			"section": "Playstation",
+			"category": "Consoles",
+			"name_of_product": "PS 5",
+			"price": 499,
+			"state": "Active",
+			"count_of_product": 5000,
+			"url": "img/photo-products/Playstation/Console/ps5.jpg",
+			"description": "The PlayStation 5 features a powerful 8-core processor, enabling it to play videos in 4K resolution. The graphics in games are highly realistic with smooth frame transitions.The gaming console has a storage capacity of 1 TB, sufficient for all your favorite games and movies. Internet connectivity is provided through the Wi-Fi module, and connection to external devices is possible via Bluetooth. The model comes in a stylish black color with a modern design. The console does not take up mu"
+		}
+	},
+	{
+		"201": {
+			"id": 201,
+			"section": "Playstation",
+			"category": "Games",
+			"name_of_product": "Cars 3",
+			"price": 44.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Playstation/Game/cars3.jpg",
+			"description": "'Cars 3: Driven to Win' is a top-class competitive racing game inspired by the Disney/Pixar animated film. The events kick off immediately after the final race depicted in the movie."
+		},
+		"202": {
+			"id": 202,
+			"section": "Playstation",
+			"category": "Games",
+			"name_of_product": "Horizon Zero Dawn",
+			"price": 39.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Playstation/Game/Horizon_Zero_Dawn.jpg",
+			"description": "Dive into the fantastical world that merges the time of humanity's earliest existence with remarkably high-tech machines in the game PlayStation Horizon Zero Dawn: Complete Edition. Embark on a journey through this captivating and perilous realm as a girl named Aloy from the Nora tribe. To survive and reach your objective, you'll need to combat mechanical monstrosities devoid of fear or mercy. And the objective is truly monumental — to discover special technology enabling ancient peoples to endure and defend against merciless machines, monsters, and rival tribes. PlayStation Horizon Zero Dawn: Complete Edition is an action genre marvel, dazzling with its vibrant colors, lush landscapes, and stunning graphics. The astonishing fusion of primal and mechanical worlds transports players to an era when humanity's own civilization fell, overwhelmed by its own intelligent machines. Age rating: 16+."
+		},
+		"203": {
+			"id": 203,
+			"section": "Playstation",
+			"category": "Games",
+			"name_of_product": "The Last of Us",
+			"price": 44.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Playstation/Game/The_Last_of_Us.jpg",
+			"description": "The best game of the generation, updated for PS4™.In a hostile, epidemic-ravaged world, Joel and Ellie, brought together by tragic circumstances, can only rely on each other to survive the perilous journey through the territory of the former United States."
+		}
+	},
+	{},
+	{
+		"401": {
+			"id": 401,
+			"section": "Nintendo Switch",
+			"category": "Consoles",
+			"name_of_product": "Nintendo Switch V2 128GB",
+			"price": 330,
+			"state": "In stock.",
+			"count_of_product": 401,
+			"url": "/img/photo-products/Nintendo-Switch/Console/img11.jpg",
+			"description": "Nintendo Switch is an innovative hybrid gaming console with improved battery life. Not only can it be connected to a TV, but it also instantly transforms into a portable gaming system with a 6.2-inch screen. For the first time, players can enjoy expansive gaming projects anywhere and anytime. The gaming console supports amiibo and multiplayer for up to 8 players. Depending on the chosen games, the battery life ranges from 4.5 to 9 hours. A single battery charge lasts approximately 5.5 hours for playing The Legend of Zelda: Breath of the Wild. The multifunctional Joy-Con controllers offer players new entertainment possibilities. Each Joy-Con is equipped with a full set of buttons and can serve as an independent controller. Each controller is equipped with an accelerometer, a gyroscope, and supports HD rumble. The package includes the console itself, gray right and left Joy-Con controllers, a Joy-Con grip, a set of Joy-Con straps, a Nintendo Switch dock, an HDMI cable, and a power adapter."
+		},
+		"402": {
+			"id": 402,
+			"section": "Nintendo Switch",
+			"category": "Consoles",
+			"name_of_product": "Nintendo Switch Lite 128GB",
+			"price": 349.99,
+			"state": "In stock.",
+			"count_of_product": 402,
+			"url": "img/photo-products/Nintendo-Switch/Console/img12.png",
+			"description": "Nintendo Switch Lite, the latest addition to the Nintendo Switch family, is a compact and lightweight console with built-in controls, supporting all Nintendo Switch games playable in handheld mode, perfect for on-the-go gaming, multiplayer experiences, and connecting up to eight consoles; with a Nintendo Switch Online membership, players can enjoy online gaming, access classic NES games, and exclusive offers, while the gray Nintendo Switch Lite console comes with a power adapter."
+		},
+		"403": {
+			"id": 403,
+			"section": "Nintendo Switch",
+			"category": "Consoles",
+			"name_of_product": "Nintendo Switch V1 128GB",
+			"price": 389.99,
+			"state": "In stock.",
+			"count_of_product": 500,
+			"url": "img/photo-products/Nintendo-Switch/Console/img13.png",
+			"description": "The Nintendo Switch is an innovative hybrid gaming console with improved battery life, seamlessly transitioning from a TV-connected system to a portable gaming device with a 6.2-inch screen, allowing players to enjoy expansive gaming experiences anywhere and anytime, supporting amiibo and multiplayer for up to 8 people; depending on the chosen games, the console's battery life ranges from 4.5 to 9 hours, with approximately 5.5 hours for playing The Legend of Zelda: Breath of the Wild; its versatile Joy-Con controllers offer new entertainment possibilities, each equipped with a full set of buttons and capable of functioning as a standalone controller, featuring an accelerometer, gyroscope, and HD rumble; the package includes the console itself, gray right and left Joy-Con controllers, a Joy-Con grip for combining both controllers, Joy-Con wrist straps, a Nintendo Switch dock, an HDMI cable, and a power adapter."
+		},
+		"404": {
+			"id": 404,
+			"section": "Nintendo Switch",
+			"category": "Consoles",
+			"name_of_product": "Nintendo Switch V2",
+			"price": 440,
+			"state": "Active",
+			"count_of_product": 5000,
+			"url": "img/photo-products/Nintendo-Switch/Console/img14.png",
+			"description": "The Nintendo Switch is an innovative hybrid gaming console with improved battery life.<br><br>Not only can it be connected to a TV, but it also instantly transforms into a portable gaming system with a 6.2-inch screen. For the first time, players can enjoy expansive gaming projects anywhere and anytime. The gaming console supports amiibo and multiplayer for up to 8 players.<br><br>Depending on the chosen games, the battery life ranges from 4.5 to 9 hours. A single battery charge lasts approximately 5.5 hours for playing The Legend of Zelda: Breath of the Wild.<br><br>The multifunctional Joy-Con controllers offer players new entertainment possibilities. Each Joy-Con is equipped with a full set of buttons and can serve as an independent controller. Each controller is equipped with an accelerometer, a gyroscope, and supports HD rumble.<br><br>The package includes the console itself, gray right and left Joy-Con controllers, a Joy-Con grip (to which both Joy-Cons can be attached for use as a single controller)"
+		}
+	},
+	{
+		"501": {
+			"id": 501,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Street Fighter",
+			"price": 32.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/StreetFighter.png",
+			"description": "Street Fighter comes to life once again with the Street Fighter 30th Anniversary Collection featuring 12 games, including Street Fighter I, II, III, and Street Fighter Alpha. For the first time on consoles: perfect balance, online* arcade mode, and everything we love about Street Fighter."
+		},
+		"502": {
+			"id": 502,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Rime",
+			"price": 32.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/Rime.png",
+			"description": "In RiME, you'll transform into a young boy on a mysterious island after a brutal storm, encountering wild animals, exploring abandoned ruins, and solving puzzles based on sound, light, shadows, perspective, platforms, and time manipulation, all while immersing yourself in the magical world of Mediterranean wonders with enchanting music and vibrant colors."
+		},
+		"503": {
+			"id": 503,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Child of Light/Valiant Hearts",
+			"price": 32.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/ChildofLightValiantHearts.png",
+			"description": "Child of light:<br><br>Embark on a magical journey with Aurora to save her father and kingdom, realizing her greater destiny, crafted by the masters Patrick Plourde and Jeffrey Yohalem; enjoy this adventure with friends and family, controlling Aurora's companion, Igniculus, via touchscreen or Nintendo Switch Joy-Con controllers, while also delving into the tale of tragic love and intertwined fates in Valiant Hearts, choosing your preferred control method: Joy-Con or touchscreen, along with an interactive comic 'Dogs of War' and a gallery of illustrations."
+		},
+		"504": {
+			"id": 504,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Bayonetta 2",
+			"price": 32.99,
+			"state": "Active",
+			"count_of_product": 2,
+			"url": "img/photo-products/Nintendo-Switch/Game/Bayonetta2.png",
+			"description": "Bayonetta 2 – The highly anticipated sequel to the beloved Bayonetta games will keep players on the edge of their seats from start to finish. On Nintendo Switch, you can expect breathtaking battles, stunning animated sequences, and a wealth of action. Engage in combat on the wing of a speeding plane flying over the city. Clash with a massive monster on the roof of a speeding train. Defeat a demonic dragon as you ascend to the top of a skyscraper."
+		},
+		"505": {
+			"id": 505,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Wolfenstein 2: The New Colossus",
+			"price": 32.99,
+			"state": "Active",
+			"count_of_product": 2,
+			"url": "img/photo-products/Nintendo-Switch/Game/Wolfenstein2.png",
+			"description": "Fan the flames of the Second American Revolution anytime, anywhere in Wolfenstein II: The New Colossus on Nintendo Switch. Fight for the freedom of the American people in the nuclear-ravaged streets of Manhattan, the occupied streets of Roswell, and the swampy lakes and wide boulevards of New Orleans. Playing as BJ Blazkowicz, uncover the gripping story of the Second American Revolution and meet remarkable characters. Rally the support of friends and allies to put an end to Frau Engel's atrocities and her army. Engage in combat wherever you are—at home or on the go. With motion controls, you'll not only immerse yourself fully in the game but also take down enemies with the precision of a sniper."
+		},
+		"506": {
+			"id": 506,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Assassins Creed 3",
+			"price": 34.99,
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/AssassinsCreed3.png",
+			"description": "The bundle includes updated versions of Assassin’s Creed III and Assassin's Creed Liberation, along with additional single-player content: 'The Benedict Arnold Missions,' 'The Hidden Secrets Pack,' and 'The Tyranny of King Washington."
+		},
+		"507": {
+			"id": 507,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Rayman Legends: Definitive Edition",
+			"price": 31.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/RaymanLegends.png",
+			"description": "Rayman makes his debut on Nintendo Switch in Rayman Legends: Definitive Edition, featuring exclusive new content. As they wander through the enchanted forest, Rayman, Globox, and the Teensies stumble upon a mysterious tent filled with captivating paintings. Upon closer inspection, they realize each painting tells a story of a fantastic world. Peering into a medieval landscape painting, they suddenly find themselves embarking on an adventure. The painting pulls them in, transporting them to a new world. The friends must traverse all the worlds, running, jumping, and fighting to escape trouble and uncover the secrets of the legendary paintings. Only in the Nintendo Switch version will you find the exclusive Kung Foot mini-game with single-player and tournament modes accommodating up to eight teams. You can also connect two consoles for local multiplayer."
+		},
+		"508": {
+			"id": 508,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "The Elder Scrolls V: Skyrim + 3 (Dawnguard, Hearthfire, Dragonborn)",
+			"price": 31.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/Skyrim.png",
+			"description": "The Elder Scrolls V: Skyrim®, a fantasy saga acclaimed with over 200 'Game of the Year' awards, comes to Nintendo Switch. Live another life, in another world... anywhere, anytime. Bethesda Game Studios® presents this legendary open-world adventure, where you can be anyone and do anything, now available to enjoy on the go. The Elder Scrolls V: Skyrim® for Nintendo Switch includes all-new exclusive features, such as motion controls for combat and lockpicking, as well as equipment and attire from The Legend of Zelda."
+		},
+		"509": {
+			"id": 509,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Super Smash Bros: Ultimate",
+			"price": 31.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/SuperSmashBros.png",
+			"description": "Super Smash Bros. Ultimate for Nintendo Switch is an engaging fighting game that brings together legendary characters from various gaming worlds. Prepare for the ultimate showdown between protagonists and antagonists from many video games and animated films. With incredibly vibrant graphics and meticulously crafted gameplay, this game seamlessly blends the fighting genre with action elements. Never before have battles between gaming characters been so spectacular. Debuting in Super Smash Bros. Ultimate are unstoppable fighters like Ridley from the 'Metroid' series and the Inklings from the video game 'Splatoon.' They face off against all the characters previously featured in the 'Super Smash Bros.' series. Get ready for stunning attacks, amazing defensive maneuvers, intriguing items, and other innovations not seen in previous 'Super Smash Bros.' games. You won't be able to take your eyes off the screen of your TV or gaming console."
+		},
+		"510": {
+			"id": 510,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Monster Hunter: Generations Ultimate",
+			"price": 32.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/MonsterHunter.png",
+			"description": "The hunting season is open! For the first time on Nintendo Switch, you can enjoy the acclaimed series of role-playing games. Hunt monsters at home or on the go with 14 different types of weapons! Choose from various combinations of hunter styles and techniques or play as a wild but adorable feline in Prowler Mode! In this game, you'll encounter more monsters than in any other part of the series, from long-time favorites to mysterious creatures never seen before! Join forces with three other players in local wireless play* or online**. Join the hunt in Monster Hunter Generations Ultimate for Nintendo Switch!"
+		},
+		"511": {
+			"id": 511,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Payday 2",
+			"price": 36.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/Payday2.png",
+			"description": "PAYDAY 2 is a four-player action shooter that lets players once again don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf, and Chains - and delve into the criminal underworld of Washington, D.C. Heists can involve up to four players, and as the crew gains experience, the heists become more challenging and lucrative. As players earn more money and notoriety in criminal circles, they gain the ability to collect and customize their own weapons and gear."
+		},
+		"512": {
+			"id": 512,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Farming Simulator 20",
+			"price": 38,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/FarmingSimulator.png",
+			"description": "In Farming Simulator 20, you'll get to experience machinery and equipment meticulously recreated from leading industry brands.For the first time on Nintendo Switch, the list includes John Deere - the world's largest manufacturer of agricultural machinery. Try out other well-known brands like Case IH, New Holland, Challenger, Fendt, Valtra, Krone, Deutz-Fahr, and many moreFarming Simulator 20 features a new North American zone where you'll develop and improve your farm. You'll engage in a variety of farming activities, including operating machinery and harvesting cotton and oats, which are available for the first time on Nintendo Switch! Take care of your pigs, cows, and sheep, and even ride horses to explore the vast expanses around the farm in a new and unique way."
+		},
+		"513": {
+			"id": 513,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Red Faction: Guerrilla Re-mars-tered",
+			"price": 27.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/RedFaction.png",
+			"description": "In Red Faction: Guerrilla, the action unfolds 50 years after the events of the first game. This time, players take on the role of a rebel from the newly reformed Red Faction, fighting for freedom against the Earth Defense Force (EDF). Red Faction: Guerrilla pushes the boundaries of destruction-based gameplay, featuring a vast open world, dynamic guerrilla battles, and a realistic destruction model, setting it apart from other similar games."
+		},
+		"514": {
+			"id": 514,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Darksiders: Warmastered Edition",
+			"price": 29.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/Darksiders.jpg",
+			"description": "Deceived by the forces of evil, the first Horseman of the Apocalypse, War, prematurely triggered the end of the world, and now he is accused of breaking the sacred pact and starting a war between Heaven and Hell. Bloodshed ended with the victory of the demons. The heavenly forces were defeated, and Earth was seized."
+		},
+		"515": {
+			"id": 515,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Super Mario Odyssey",
+			"price": 31.29,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/SuperMarioOdyssey.png",
+			"description": "In the game Super Mario Odyssey (Nintendo Switch), you'll reunite with the plumber Mario, his beloved Princess Peach, and other iconic characters from the legendary 'Mario' game series. The legendary platformer, a hallmark of Nintendo, returns to the screens of the Nintendo Switch console. The villain Bowser, who is determined to take over the Mushroom Kingdom by any means, this time plans to marry Princess Peach to seize power. The antagonist's plan involves a grand wedding, where the princess simply can't say 'no'."
+		},
+		"516": {
+			"id": 516,
+			"section": "Nintendo Switch",
+			"category": "Games",
+			"name_of_product": "Sid Meiers Civilization VI",
+			"price": 27.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Game/SidMeiersCivilizationVI.png",
+			"description": "Civilization — This is a series of turn-based strategy games, founded by the legendary designer Sid Meier, whose main task is to create an empire capable of withstanding the test of time. You'll explore new lands, research technologies, defeat other powerful rulers, and build the greatest civilization in human history."
+		}
+	},
+	{
+		"601": {
+			"id": 601,
+			"section": "Nintendo Switch",
+			"category": "Accessories",
+			"name_of_product": "Pro Controller: Original",
+			"price": 64.89,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Accessory/ProControllerOriginal.png",
+			"description": "Pro Controller – пAdvanced controller for the Nintendo Switch gaming console. In many games, it significantly enhances control, allowing gamers to enjoy more and achieve impressive success."
+		},
+		"602": {
+			"id": 602,
+			"section": "Nintendo Switch",
+			"category": "Accessories",
+			"name_of_product": "Pro Controller: Splatoon Version",
+			"price": 82.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Accessory/ProControllerSplatoonVersion.png",
+			"description": "Nintendo Switch Pro – A convenient and functional controller, featuring analog sticks, a built-in accelerometer, and a directional pad button, provides full control over character actions in various games while offering feedback through vibrations for a more immersive gaming experience."
+		},
+		"603": {
+			"id": 603,
+			"section": "Nintendo Switch",
+			"category": "Accessories",
+			"name_of_product": "Case Original",
+			"price": 7.99,
+			"state": "Active",
+			"count_of_product": 6,
+			"url": "img/photo-products/Nintendo-Switch/Accessory/CaseOriginal.png",
+			"description": "A Nintendo Switch accessory kit, comprising a protective case and screen protector, is sure to appeal to those concerned about safeguarding their console, featuring a precisely sized screen protector shielding against dust and minor scratches without compromising display quality, alongside a durable storage and transportation case preventing cracks, scratches, and wear during storage or travel, equipped with a pocket for up to five Nintendo Switch game cards and two Joy-Con straps, offering convenience for on-the-go gaming without removing the console from the case."
+		},
+		"604": {
+			"id": 604,
+			"section": "Nintendo Switch",
+			"category": "Accessories",
+			"name_of_product": "Portable Dock-charger Original",
+			"price": 9.99,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Accessory/PortableDock-chargerOriginal.png",
+			"description": ""
+		},
+		"605": {
+			"id": 605,
+			"section": "Nintendo Switch",
+			"category": "Accessories",
+			"name_of_product": "Joy-Con Original",
+			"price": 22,
+			"state": "Active",
+			"count_of_product": 1,
+			"url": "img/photo-products/Nintendo-Switch/Accessory/Joy-ConOriginal.png",
+			"description": "The Nintendo Switch Joy-Con Pair gaming controller offers diverse gaming capabilities and ergonomic design, weighing just 181g for comfortable use, featuring wireless connectivity and compatibility with Nintendo Switch, equipped with all necessary buttons for precise and responsive gameplay, including triggers and bumpers, enhanced by vibration feedback for heightened realism and prolonged gameplay powered by a long-lasting rechargeable battery."
+		}
+	},
+	{
+		"701": {
+			"id": 701,
+			"section": "Xbox",
+			"category": "Consoles",
+			"name_of_product": "Xbox One S",
+			"price": 499.99,
+			"state": "Active",
+			"count_of_product": 5000,
+			"url": "img/photo-products/Xbox/Console/XboxOneS.png",
+			"description": "stationary<br>hard drive capacity 1024 GB<br>virtual reality support<br>UHD resolution and 3D mode support<br>wireless controller included<br>IR port, Bluetooth, Wi-Fi (802.11ac), LAN<br>video playback<br>8 GB<br>ports: HDMI, USB x3, optical audio output"
+		}
+	},
+	{},
+	{}
+]
